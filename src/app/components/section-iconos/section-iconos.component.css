@@ -1,0 +1,51 @@
+
+.contenedor {
+  display: inline;
+}
+
+.iconos {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    margin: 2rem;
+    
+    
+}
+
+@media (min-width: 768px){
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+        margin: 5rem;
+    }
+
+}
+
+.icono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+    
+}
+
+
+img {
+    width: 6rem;
+   
+}
+
+h3 {
+    color: var(--primario);
+    text-transform: uppercase;
+   
+}
+
+
+
+
+
