@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SectionIconosComponent } from './section-iconos/section-iconos.component';
 import { SobreTechproComponent } from './sobre-techpro/sobre-techpro.component';
 import { EligeTechComponent } from './elige-tech/elige-tech.component';
+import { NewlesterComponent } from './newlester/newlester.component';
 
 
 
@@ -10,7 +11,8 @@ import { EligeTechComponent } from './elige-tech/elige-tech.component';
   declarations: [
     SectionIconosComponent,
     SobreTechproComponent,
-    EligeTechComponent
+    EligeTechComponent,
+    NewlesterComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { EligeTechComponent } from './elige-tech/elige-tech.component';
   exports: [
     SectionIconosComponent,
     SobreTechproComponent,
-    EligeTechComponent
+    EligeTechComponent,
+    NewlesterComponent
   ]
 })
 export class ComponentsModule { }
